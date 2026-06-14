@@ -1,0 +1,245 @@
+# hello
+
+## hello2
+
+### hello3
+
+#### hello4
+
+##### hello5
+
+###### hello6
+
+<p>细草微风岸，危墙独夜舟。<br>星垂平野阔，月涌大江流。</p>
+
+名岂文章著，官应老病休。  
+飘飘何所似，天地一沙鸥。
+
+这里用 **粗体**  
+这里用*斜体*  
+这里用***粗斜体***
+
+>来个引用  
+>来个换行的引用
+>
+>来个分段的引用
+>>来个引用的引用
+>
+>- 分点的引用  
+>带有**粗体**  
+*斜体*  
+***粗斜体***的引用
+>引用的分段
+
+### 有序列表
+
+1. 这是第一条
+2. 这是第二条
+3. 这是第三条  
+
+或者
+
+1. 这是第一条
+1. 这是第二条
+   1. 这是2.1条
+   5. 这是2.2条
+       - 来个无序列表 
+1. 这是第三条
+
+### 无序列表
+
+- 可以用'-'
+
+  这里在列表中嵌套其他元素，且元素与列表独立（上空行（不空与分点成为一个整体），元素加一个制表符）  
+    I need to add another paragraph below the second list item.
++ 可以用'+'
+   - 二级子列
+      + 三级子列
+         * 四级子列
+* 可以用'*'
+
+  >来个引用块
+* 好困😴
+#### 代码块
+
+代码块通常采用制表符缩进。当它们被放在列表中时，请将它们缩进两个制表符。上面空一行
+
+1. 困了
+2. 好困
+3. 想睡觉了
+
+        代码块要按两次Tab键
+
+1. 第四条还能接上前面的条数
+
+#### 插入图片
+![图像](Heart-traffic-lights-in-Iceland.jpg)
+
+#### 代码语法
+`nova`  
+``zhangnannizhen`shuai`.``
+
+###### 围栏式代码块（不缩进的代码块）
+
+```json
+{
+    "number":"7",
+    "name":"zhangnan",
+    "age":"25"
+}
+```
+用~线也可以，json是给代码加颜色。
+
+
+### 分割线语法
+***
+---
+___
+
+### 链接语法
+
+[Markdown链接语法](https://markdown.com.cn/basic-syntax/links.html "用双引号给链接加一个title")  
+
+<https://markdown.com.cn/basic-syntax/links.html>  
+
+<zn20220604@outlook.com>
+
+这是 **[B站](https://www.bilibili.com 'Bilibili干杯~')**
+
+这是 **[`B站`](https://www.bilibili.com 'Bilibili干杯~')**
+
+##### 参考链接
+<a id="custom-anchor"></a>
+[我真帅][1]  
+
+[1]: http://www.google.com/
+
+# 锚点链接
+
+## 目录
+
+- [第一章：介绍](#第一章-困)
+- [第二章：基本操作](#第二章-好困)
+
+
+## 第一章 困
+困困困困困困困
+## 第二章 好困
+困困困库焜坤昆😴
+## 第三章 困得慌
+## 第四章 困死我了
+
+
+
+[跳转到自定义位置](#custom-anchor)  
+
+[回到顶部](#)
+
+
+
+![RUNOOB 图标](https://static.jyshare.com/images/runoob-logo.png "RUNOOB")
+
+
+![Bilibili](https://i0.hdslb.com/bfs/archive/12573bbe82fe6e24e49c199186936b5b15d6572d.png@3840w_360h_1c.avif?mirror_report_banner=1)
+
+### 转义字符'\'
+\*\*你好**
+
+
+|列1|列2|列3|
+|:---|---:|---:|
+|1|2|3|
+|4|5|6|
+|7|8|9|
+
+| 功能 | 描述 | 状态 |
+|------|------|:----:|
+| **用户登录** | 支持邮箱和手机号登录 | &#x2705; |
+| *密码重置* | 通过邮箱重置密码 | &#x26a0;&#xfe0f; |
+| `API接口` | RESTful API 设计 | &#x2705; |
+| [文档链接](https://example.com) | 查看详细文档 | &#x1f4d6; |
+
+| 项目 | 详细说明 |
+|------|----------|
+| 需求分析 | 1. 收集用户需求<br>2. 分析业务场景<br>3. 确定功能范围 |
+| 技术选型 | 前端：React + TypeScript<br>后端：Node.js + Express<br>数据库：MongoDB |
+
+| 技术栈 | 说明 | 官网 |
+|--------|------|------|
+| React | 用户界面库 | [链接](https://reactjs.org) |
+| Vue.js | 渐进式框架 | [链接](https://vuejs.org) |
+| Angular | 完整的框架 | [链接](https://angular.io) |
+
+## **Markdown高级技巧**
+
+### 支持HTML元素
+不在 Markdown 涵盖范围之内的标签，都可以直接在文档里面用 HTML 撰写。
+
+目前支持的 HTML 元素有：\<kbd> \<b> \<i> \<em> \<sup> \<sub> \<br>等
+
+### 公式 
+
+在 Markdown 中，数学公式通过 LaTeX 语法来表示。
+
+#### 基本语法结构
+
+- **命令**：以反斜杠\\开头，如 \alpha、\sum
+- 参数：用花括号 {} 包围，如 \frac{a}{b}
+- 下标：使用\_，如 x_1
+- 上标：使用 \^，如 x^2
+- 分组：用花括号将多个字符组合，如 x_{i+1}
+
+文本中的变量 $x = 5$ 和函数 $f(x) = x^2 + 2x + 1$。
+$$E = mc^2$$
+
+$$\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}$$
+
+$$
+    \begin{align}
+    f(x) &= ax^2 + bx + c \\
+    f'(x)  &= 2ax + b \\
+    f''(x)  &= 2a
+    \end{align}
+    $$
+
+## 延申
+<font color="red">这段文字是红色的！</font>
+<p style="color:blue">这段文字是蓝色的。</p>
+一些文字 <ins>将被加下划线</ins>。  
+
+&nbsp;&nbsp;&nbsp;&nbsp;这是一个缩进的段落。
+
+这是可见的段落。
+
+[这是一个隐藏的注释]: # 
+
+这是另一个可见的段落。
+
+Markdown 不能指定 target="_blank"，但 HTML 可以：
+
+<a href="https://markdown.com.cn" target="_blank">学习 Markdown！</a>
+
+Markdown 不能直接插入特殊符号，但可以复制粘贴，或者使用 HTML 实体：
+
+版权 (©) — &copy;  
+注册商标 (®) — &reg;  
+商标 (™) — &trade;  
+欧元 (€) — &euro;  
+左箭头 (←) — &larr;  
+上箭头 (↑) — &uarr;  
+右箭头 (→) — &rarr;  
+下箭头 (↓) — &darr;  
+度数 (°) — &#176;  
+圆周率 (π) — &#960;  
+
+Markdown 不能直接在表格中换行或插入列表，但可以用 HTML 解决：
+
+表格内换行
+| 语法      | 描述         |
+| --------- | ----------- |
+| 换行      | 第一段。<br>第二段。 |
+
+表格内列表
+| 语法      | 描述         |
+| --------- | ----------- |
+| 列表      | <ul><li>项目一</li><li>项目二</li></ul> |
