@@ -40,3 +40,30 @@ del student['major']
 #遍历
 for key, value in student.items():
     print(f"{key}: {value}")
+
+
+
+# 通讯录练习
+contacts = []  # 空列表，准备装多个联系人
+
+# 添加联系人
+contacts.append({"name": "张三", "phone": "13800138000", "city": "北京"})
+contacts.append({"name": "李四", "phone": "13900139000", "city": "上海"})
+contacts.append({"name": "王五", "phone": "13700137000", "city": "广州"})
+
+# 显示所有联系人
+print("===== 通讯录 =====")
+for person in contacts:
+    print(f"姓名：{person['name']}，电话：{person['phone']}，城市：{person['city']}")
+
+# 查询功能
+search = input("\n输入要查询的名字：")
+found = False
+for person in contacts:
+    if person["name"] == search:
+        print(f"找到了！电话：{person['phone']}，城市：{person['city']}")
+        found = True
+        break
+
+if not found:
+    print(f"未找到{search}")
