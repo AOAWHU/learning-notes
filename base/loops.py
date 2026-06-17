@@ -31,7 +31,7 @@ while guess != target:
     guess = int(input("请继续猜: "))
 print(f"答对了！,正确答案是{target}. ")
 '''
-#猜数字加强版1.1版（用户可以多次猜测，直到猜对为止，并统计猜测的次数）
+#猜数字加强版1.1版（用户可以多次猜测，根据提示直到猜对为止，并统计猜测的次数）
 import random
 target = random.randint(1, 10)
 guess = int(input("请猜一个1-10之间的数字: "))
