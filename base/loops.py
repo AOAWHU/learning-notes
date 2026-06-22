@@ -45,4 +45,4 @@ while target != guess:
 
     guess = int(input("请继续猜: "))
     count += 1
-print(f"答对了！,正确答案是{target}. 你总共猜了{count}次.")
+print(f"答对了！,正确答案是{target}. 你总共猜了{count}次.") 
